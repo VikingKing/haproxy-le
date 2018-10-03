@@ -1,3 +1,3 @@
 FROM haproxy
 
-RUN apt-get update && RUN apt install certbot -y
+RUN apt-get update && apt install certbot -y
